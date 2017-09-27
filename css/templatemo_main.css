@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Raleway', sans-serif; }
 
 .green { color: #CF0; }
 
+.imgCenter {text-align:center;}
+
+.imgCenter p {text-align:center;}
+
 h2 {
 	padding: 10px 0;
 }
