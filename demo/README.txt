@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ansarimofid/pen/EKZLYz.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/asrulnurrahim/pen/WOyzxy.
 
- Sometime you need a  small image editor in your website while uploading profile pic that needs re-size or cropping . This  small editor solves this problem. On clicking open editor button, a image editor opens. Editor asks for an image, and then you can re-size,crop and download the same. It also has an optional feature to submit the edited image to server.
+ 
