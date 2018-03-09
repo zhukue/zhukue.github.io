@@ -20,7 +20,12 @@
       /></noscript>
       <!-- End Facebook Pixel Code -->
 
-
+      <script>
+        UPLOADCARE_LOCALE = "ru";
+        UPLOADCARE_TABS = "file url facebook gdrive instagram vk";
+        UPLOADCARE_PUBLIC_KEY = "e2c29def71483feba02b";
+      </script>
+      <script charset="utf-8" src="//ucarecdn.com/libs/widget/3.2.3/uploadcare.full.min.js"></script>
 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -113,6 +118,9 @@
                                       </div>
                                   </a>
                               </div>
+                              <input type="hidden" role="uploadcare-uploader" name="content"
+       data-images-only="true"
+       data-multiple="true" />
 
                               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-bottom-20">
                                   <a href="#services" class="change-section">
