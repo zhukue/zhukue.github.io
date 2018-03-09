@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+      <link href="https://transloadit.edgly.net/releases/uppy/v0.23.2/dist/uppy.min.css" rel="stylesheet">
       <meta name="yandex-verification" content="ac3bc0bef19544bf" />
       <!-- Facebook Pixel Code -->
+      <script>
+        var uppy = Uppy.Core({ autoProceed: false })
+        uppy.use(Uppy.DragDrop, { target: '#drag-drop-area' })
+        uppy.use(Uppy.Tus, { endpoint: 'https://master.tus.io/files/' })
+        uppy.run()
+      </script>
+
       <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -20,12 +28,6 @@
       /></noscript>
       <!-- End Facebook Pixel Code -->
 
-      <script>
-        UPLOADCARE_LOCALE = "ru";
-        UPLOADCARE_TABS = "file url facebook gdrive instagram vk";
-        UPLOADCARE_PUBLIC_KEY = "e2c29def71483feba02b";
-      </script>
-      <script charset="utf-8" src="//ucarecdn.com/libs/widget/3.2.3/uploadcare.full.min.js"></script>
 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -118,9 +120,7 @@
                                       </div>
                                   </a>
                               </div>
-                              <input type="hidden" role="uploadcare-uploader" name="content"
-       data-images-only="true"
-       data-multiple="true" />
+
 
                               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 margin-bottom-20">
                                   <a href="#services" class="change-section">
@@ -416,6 +416,7 @@ P.S. Наши контакты есть в разделе "Контакты" в 
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/jquery.backstretch.min.js"></script>
         <script src="js/templatemo_script.js"></script>
+        <script src="https://transloadit.edgly.net/releases/uppy/v0.23.2/dist/uppy.min.js"></script>
     </body>
 </html>
 
