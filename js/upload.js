@@ -2069,4 +2069,4 @@ new Dropzone('#' + uploadSlot, {
         document.getElementById(uploadSlot).innerHTML = successTxt;
     },
 });
-document.getElementById(uploadSlot).innerHTML = '<center class="dz-message"><img src="http://gdwidget.com/img/upload-widget.png" alt="" style="width:100px margin:auto;" class="dz-message" /></center><br/><small><img src="http://gdwidget.com/img/google-drive-sketched-logo-poweredby.png" alt="Google Drive Widget" style="width:20px; display: inline;" /> Powered by <a href="http://gdwidget.com">Google Drive Widget</a></small>';
+document.getElementById(uploadSlot).innerHTML = '<center class="dz-message"><img src="" alt="" style="height:1pt margin:auto;" class="dz-message" /></center>';
