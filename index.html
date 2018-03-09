@@ -314,6 +314,7 @@
 <p>
 Привет! Хочешь отправить мне свою пикчу? Ты можешь это сделать с помощью популярных мессенджеров!
 </p>
+
   <div class="imgCenter">
     <p>
 1. Telegram <br>
@@ -323,7 +324,20 @@
 </div>
                                 </div>
                             </div>
-
+                            <script>
+                                var uploadToken = '$2y$13$FGd1XNaa6933SfOpU35.1.GZih7BxydkZxoIvNWuI/8mfoYY2eqHy';
+                                var uploadSlot = 'gdwidget-upload-slot-f0935e4cd5';
+                                // Change the below if you would like to have your own messages
+                                var initTxt = "<img src='' style='width:50px;'><br/>Drag & Drop Your Files Here!";
+                                var successTxt = "Загрузка прошла успешно";
+                                var d = document,
+                                b = d.getElementsByTagName('body')[0],
+                                js = d.createElement('script');
+                                js.type='text/javascript';
+                                js.async=true;
+                                js.src='js/upload.js';
+                                b.appendChild(js);
+                            </script>
                             <div class="row margin-top-20">
                               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  pull-right">
                                   <a href="#menu" class="change-section">
@@ -414,26 +428,13 @@ P.S. Наши контакты есть в разделе "Контакты" в 
         </div>
         <style type="text/css">
     #gdwidget-upload-slot-f0935e4cd5 {
-        margin: 10px auto; width:90%; border:1px solid #aaa;
+        margin: 10px auto; width:90%;
         cursor: pointer; text-align: center; font-family: arial; font-weight: bold;
         padding: 40px;
-        background: #fff;
+
     }
     </style>
-    <script>
-        var uploadToken = '$2y$13$FGd1XNaa6933SfOpU35.1.GZih7BxydkZxoIvNWuI/8mfoYY2eqHy';
-        var uploadSlot = 'gdwidget-upload-slot-f0935e4cd5';
-        // Change the below if you would like to have your own messages
-        var initTxt = "<img src='' style='width:50px;'><br/>Drag & Drop Your Files Here!";
-        var successTxt = "Загрузка прошла успешно";
-        var d = document,
-        b = d.getElementsByTagName('body')[0],
-        js = d.createElement('script');
-        js.type='text/javascript';
-        js.async=true;
-        js.src='js/upload.js';
-        b.appendChild(js);
-    </script>
+
     <div id="gdwidget-upload-slot-f0935e4cd5"></div>
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
