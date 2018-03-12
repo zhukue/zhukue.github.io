@@ -334,20 +334,30 @@
                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                     <div class="col-sm-12 col-md-12 col-lg-12 black-bg">
 
-                                      <script type="text/javascript" src="http://formdesigner.ru/js/widgets/popup.js"></script>
-                <script type="text/javascript">
-                FDPopup.init(87579, {
-                    hideCloseBtn: false,
-                    disableOnMobileDevice: false,
-                    host: "formdesigner.ru",
-                    overlay: {
-                        background: "#000000",
-                        opacity: 0.1
-                    },
-                    type: "timeout",
-                    timeout: 5000,
-                    expires: 0
-                });
+                                      <script type="text/javascript">
+                var _FDFeedBack = {
+                    formId: 87579,
+                    text: "Заказать",
+                    background: "#000000",
+                    color: "#ffffff",
+                    fontSize: "14px",
+                    borderRadius: 5,
+                    buttonSide: "right",
+                    buttonAlign: "center",
+                    popup: {
+                        hideCloseBtn: false,
+                        host: "formdesigner.ru",
+                        overlay: {
+                            background: "#000000",
+                            opacity: 0.1
+                        }
+                    }
+                };
+                (function() {
+                    var fd = document.createElement("script"); fd.type = "text/javascript"; fd.async = true;
+                    fd.src = (document.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/widgets/feedback.js";
+                   var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(fd, s);
+                })();
                 </script>
                                     </div>
                                 </div>
